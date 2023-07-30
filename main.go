@@ -69,9 +69,9 @@ func main() {
 	node5 := &node{data:33}
 	mylist.prepend(node5)
 
-  mylist.printListData("33 was added to the beginning")
+  mylist.printListData("33 was added to the beginning (5 nodes)")
 
 	mylist.deleteWithValue(16)
 
-	mylist.printListData("16 was deleted, 20 connected with 18")
+	mylist.printListData("16 was deleted, 20 connected with 18 (4 nodes)")
 }
